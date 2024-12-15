@@ -1,0 +1,75 @@
+/* Основний стиль сторінки */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1e1e2e; /* Темний фон */
+  color: #e0e0e0; /* Світлий текст */
+}
+
+.planner {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  width: 90%;
+  max-width: 1200px;
+  background-color: #2b2b3b; /* Темніший контейнер */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #c0caf5; /* Світло-блакитний текст */
+  margin-bottom: 10px;
+}
+
+.todo-section {
+  background-color: #3b3b4f; /* Темно-сірий блок */
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.todo-section h2, .goal-section h3, .other-tasks h3, .next-week h3 {
+  color: #c0caf5; /* Світло-блакитний заголовок */
+}
+
+input[type="checkbox"] {
+  accent-color: #88c0d0; /* Світло-блакитний чекбокс */
+}
+
+.task-input {
+  background-color: #4c4f66; /* Темно-сіре поле */
+  color: #e0e0e0;
+  border: 1px solid #3b3b4f;
+}
+
+.day {
+  background-color: #2e2e3b; /* Темний блок для дня */
+  color: #e0e0e0;
+}
+
+.day textarea {
+  background-color: #3b3b4f; /* Темно-сіре поле вводу */
+  color: #e0e0e0;
+  border: 1px solid #4c4f66;
+}
+
+.day::before {
+  color: #88c0d0; /* Блакитний для заголовків */
+}
+
+.back-button {
+  background-color: #4c4f66; /* Темна кнопка */
+  color: #e0e0e0;
+}
+
+.back-button:hover {
+  background-color: #88c0d0; /* Світло-блакитний при наведенні */
+}
