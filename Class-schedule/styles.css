@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Чорний фон */
+    color: #fff; /* Білий текст */
+    margin: 0;
+    padding: 0;
+}
+
+.back-button {
+    position: absolute;
+    padding: 8px 12px;
+    background-color: rgb(70, 161, 221);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    width: 100px;
+    height: 60px;
+    min-width: 50px;
+}
+
+.back-button i {
+    margin-right: 5px;
+}
+
+.back-button:hover {
+    background-color: #4CAF50; /* Зелений на наведенні */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: #333; /* Темно-сірий контейнер */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+p {
+    text-align: center;
+    color: #fff;
+}
+
+.week-switch {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.schedules {
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule {
+    margin-bottom: 20px;
+}
+
+.schedule h2 {
+    background-color: #222; /* Темний фон для заголовків розкладу */
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #555;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #111; /* Чорний фон таблиці */
+}
+
+table, th, td {
+    border: 1px solid #555; /* Темні рамки */
+    color: #fff; /* Білий текст */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+thead {
+    background-color: #222; /* Темно-сірий фон заголовків */
+    color: #fff;
+}
